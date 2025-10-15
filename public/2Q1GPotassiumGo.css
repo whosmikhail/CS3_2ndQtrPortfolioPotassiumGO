@@ -11,9 +11,56 @@
     background-color: #00000086;
 }
 
-.otherpeople {
+.Box {
+    float: right;
+    width: 100%;
+    border: 4px solid #260901;
+    margin-left: 20px;
+    background-color: #00000086;
+    align-content: center;
+}
+
+button {
     font-family: "Pixelify Sans", sans-serif;
+    font-size: x-large;
     color: white;
+}
+
+button:hover {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+.Crafting {
+    background-image: url("../assets/firstgraded/CRAFTING.png");  
+    aspect-ratio: 16/2;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+}
+
+.Mining {
+    background-image: url("../assets/firstgraded/MINING.png");  
+    aspect-ratio: 16/2;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+}
+
+.Fighting {
+    background-image: url("../assets/firstgraded/FIGHTING.png");  
+    aspect-ratio: 16/2;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
 }
 
 iframe {
