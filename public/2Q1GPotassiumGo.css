@@ -1,0 +1,655 @@
+table, th, td {
+    border: 4px solid;
+    border-color: #260901;
+    border-collapse: collapse;
+    padding: 8px
+}
+
+table {
+    margin-left: auto;
+    margin-right: 750px;
+    margin-top: 250px;
+    text-align: center;  
+}
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+            
+th, td {
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/52K7sgnQLSJ8ggfyfvz9yB.jpg');
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/* specific backgrounds */
+
+.FireCoral {
+    background-image: url("../assets/firstgraded/Fire Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Mangrove {
+    background-image: url("../assets/firstgraded/Mangrove Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.NetherBricks {
+    background-image: url("../assets/firstgraded/Nether Bricks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.RedMisc {
+    background-image: url("../assets/firstgraded/RedPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.RedNether {
+    background-image: url("../assets/firstgraded/Red Nether Bricks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Redstone {
+    background-image: url("../assets/firstgraded/Redstone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Acacia {
+    background-image: url("../assets/firstgraded/Acacia Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Copper {
+    background-image: url("../assets/firstgraded/Copper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Bricks {
+    background-image: url("../assets/firstgraded/Bricks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.OrangeMisc {
+    background-image: url("../assets/firstgraded/OrangePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.RedSand {
+    background-image: url("../assets/firstgraded/Red Sand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Resin {
+    background-image: url("../assets/firstgraded/Resin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.BrownMisc {
+    background-image: url("../assets/firstgraded/BrownPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.DarkOak {
+    background-image: url("../assets/firstgraded/DarkOak Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Dirt {
+    background-image: url("../assets/firstgraded/Dirt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Dripstone {
+    background-image: url("../assets/firstgraded/Dripstone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Exposed {
+    background-image: url("../assets/firstgraded/Exposed.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Granite {
+    background-image: url("../assets/firstgraded/Granite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Jungle {
+    background-image: url("../assets/firstgraded/Jungle Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.MudBrick {
+    background-image: url("../assets/firstgraded/Mudbricks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Oak {
+    background-image: url("../assets/firstgraded/Oak Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.SoulSand {
+    background-image: url("../assets/firstgraded/SoulSand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Spruce {
+    background-image: url("../assets/firstgraded/Spruce Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Bamboo {
+    background-image: url("../assets/firstgraded/Bamboo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Birch {
+    background-image: url("../assets/firstgraded/Birch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Bees {
+    background-image: url("../assets/firstgraded/Honey.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Endstone {
+    background-image: url("../assets/firstgraded/Endstone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Gold {
+    background-image: url("../assets/firstgraded/Gold.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.HornCoral {
+    background-image: url("../assets/firstgraded/Horn Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Sand {
+    background-image: url("../assets/firstgraded/Sand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.YellowMisc {
+    background-image: url("../assets/firstgraded/YellowPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Azalea {
+    background-image: url("../assets/firstgraded/Azalea.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Emerald {
+    background-image: url("../assets/firstgraded/Emerald.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.GreenMisc {
+    background-image: url("../assets/firstgraded/GreenPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.LimeMisc {
+    background-image: url("../assets/firstgraded/LimePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.MossyCobblestone {
+    background-image: url("../assets/firstgraded/Mossy Cobblestone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.CyanMisc {
+    background-image: url("../assets/firstgraded/CyanPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.DarkPrismarine {
+    background-image: url("../assets/firstgraded/Dark Prismarine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Oxidized {
+    background-image: url("../assets/firstgraded/Oxidized.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Prismarine {
+    background-image: url("../assets/firstgraded/Prismarine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Warped {
+    background-image: url("../assets/firstgraded/Warped Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Weathered {
+    background-image: url("../assets/firstgraded/Weathered.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.BlueMisc {
+    background-image: url("../assets/firstgraded/BluePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Diamond {
+    background-image: url("../assets/firstgraded/Diamond.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Ice {
+    background-image: url("../assets/firstgraded/Ice.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Lapis {
+    background-image: url("../assets/firstgraded/Lapis.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.LightBlueMisc {
+    background-image: url("../assets/firstgraded/LightBluePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.SoulFire {
+    background-image: url("../assets/firstgraded/SoulFire.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.TubeCoral {
+    background-image: url("../assets/firstgraded/Tube Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Amethyst {
+    background-image: url("../assets/firstgraded/Amethyst.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.BubbleCoral {
+    background-image: url("../assets/firstgraded/Bubble Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.PurpleMisc {
+    background-image: url("../assets/firstgraded/PurplePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Purpur {
+    background-image: url("../assets/firstgraded/Purpur.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.BrainCoral {
+    background-image: url("../assets/firstgraded/Brain Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Cherry {
+    background-image: url("../assets/firstgraded/Cherry Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Crimson {
+    background-image: url("../assets/firstgraded/Crimson Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.MagentaMisc {
+    background-image: url("../assets/firstgraded/MagentaPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.PinkMisc {
+    background-image: url("../assets/firstgraded/PinkPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Diorite {
+    background-image: url("../assets/firstgraded/Diorite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.Iron {
+    background-image: url("../assets/firstgraded/Iron.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.PaleOak {
+    background-image: url("../assets/firstgraded/PaleOak Planks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.Quartz {
+    background-image: url("../assets/firstgraded/Quartz.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.Snow {
+    background-image: url("../assets/firstgraded/Snow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.WhiteMisc {
+    background-image: url("../assets/firstgraded/WhitePowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+    color: black;
+}
+
+.Andesite {
+    background-image: url("../assets/firstgraded/Andesite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Basalt {
+    background-image: url("../assets/firstgraded/Basalt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.DeadCoral {
+    background-image: url("../assets/firstgraded/Dead Coral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.GrayMisc {
+    background-image: url("../assets/firstgraded/GrayPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.LightGrayMisc {
+    background-image: url("../assets/firstgraded/LightGrayPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.MossyBricks {
+    background-image: url("../assets/firstgraded/Mossy Bricks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.PaleMoss {
+    background-image: url("../assets/firstgraded/Pale Moss.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Stone {
+    background-image: url("../assets/firstgraded/Stone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Tuff {
+    background-image: url("../assets/firstgraded/Tuff.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.BlackMisc {
+    background-image: url("../assets/firstgraded/BlackPowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Blackstone {
+    background-image: url("../assets/firstgraded/Blackstone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Deepslate {
+    background-image: url("../assets/firstgraded/Deepslate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
+
+.Sculk {
+    background-image: url("../assets/firstgraded/Sculk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    image-rendering: pixelated;
+}
