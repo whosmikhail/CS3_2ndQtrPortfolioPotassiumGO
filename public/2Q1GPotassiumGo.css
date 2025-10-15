@@ -1,3 +1,27 @@
+.TextBox {
+    padding: 8px;
+    width: 50%;
+    border: 4px solid #260901;
+    margin: 20px auto;
+    text-align: justify;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    float: right;
+    margin-left: 20px;
+    background-color: #00000086;
+}
+
+.otherpeople {
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+}
+
 table, th, td {
     border: 4px solid;
     border-color: #260901;
@@ -7,7 +31,7 @@ table, th, td {
 
 table {
     margin-left: auto;
-    margin-right: 750px;
+    margin-right: 50%;
     margin-top: 250px;
     text-align: center;  
 }
