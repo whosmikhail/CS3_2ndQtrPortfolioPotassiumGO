@@ -1,0 +1,183 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(7, 4, 29), rgb(68, 47, 83));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title-box {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 4px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.firstgradedbox {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16/9;
+    padding: 4px solid black;
+    margin: 4px;
+    border: 8px solid black;
+    border-radius: 4px;
+
+    float: left;
+    align-content: center;
+
+    background-image: url("assets/index/1stGraded.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%, 120%;
+}
+
+#firstgraded {
+    animation: unblurry 0.25s alternate;
+    aspect-ratio: 16/9;
+    width: 100%;
+
+    border: 4px solid white;
+    border-radius: 4px;
+    box-shadow: 
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        inset 0 0 5px #0ff,
+        inset 0 0 5px #0ff;
+
+    font-family: "Bytesized";
+    background-color: rgba(255, 255, 255, 0.500);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    font-size: 30px;
+    color: white;
+}
+
+#firstgraded:hover {
+    animation: blurry 0.25s alternate;
+    color: lime;
+    text-shadow: 0 0 20px #0f0, 0 0 20px #0f0;
+    font-family: "Bytesized";
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 
+        0 0 5px #f00,
+        0 0 5px #f00,
+        0 0 5px #f00,
+        inset 0 0 5px #f00,
+        inset 0 0 5px #f00;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%, 120%;
+}
+
+@keyframes blurry {
+    from {
+        background-color: rgba(255, 255, 255, 0.500);
+        filter: blur(4px);
+        box-shadow: 
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        inset 0 0 5px #0ff,
+        inset 0 0 5px #0ff;
+        color: white;
+    }
+    to {
+        background-color: rgba(255, 255, 255, 0);
+        filter: blur(0px);
+        box-shadow: 
+        0 0 5px #f00,
+        0 0 5px #f00,
+        0 0 5px #f00,
+        inset 0 0 5px #f00,
+        inset 0 0 5px #f00;
+        color: lime;
+    text-shadow: 0 0 20px #0f0, 0 0 20px #0f0;
+    }
+}
+
+@keyframes unblurry {
+    from {
+        background-color: rgba(255, 255, 255, 0.100);
+        filter: blur(0px);
+        box-shadow: 
+        0 0 5px #f00,
+        0 0 5px #f00,
+        0 0 5px #f00,
+        inset 0 0 5px #f00,
+        inset 0 0 5px #f00;
+    }
+    to {
+        background-color: rgba(255, 255, 255, 0.500);
+        filter: blur(4px);
+        box-shadow: 
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        inset 0 0 5px #0ff,
+        inset 0 0 5px #0ff;
+    }
+}
+
+#title {
+    /* main item */
+    background-color: black;
+    position: relative;
+    z-index: 5;
+
+    /* border */
+    padding: 4px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        0 0 5px #0ff,
+        inset 0 0 5px #0ff,
+        inset 0 0 5px #0ff;
+
+    /* text */
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+    color: rgb(239, 253, 255);
+    text-shadow: 0 0 20px #0ff, 0 0 20px #0ff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+ul {
+    position: relative;
+    z-index: 1000;
+}
+
+#J01 {
+    /* border */
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 4px;
+    width: 30px;
+    box-shadow: 
+        0 0 5px #f00,
+        0 0 5px #f00,
+        0 0 5px #f00,
+        inset 0 0 5px #f00,
+        inset 0 0 5px #f00;
+
+    /* text */
+    color:rgb(255, 223, 223);
+    text-shadow: 0 0 20px #f00, 0 0 20px #f00, 0 0 20px #f00;
+    font-weight: 900;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 35px;
+
+    /* positioning */
+    float: right;
+    line-height: 40px;
+    position: relative;
+    z-index: 5;
+}

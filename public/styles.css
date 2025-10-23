@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    margin: 4px;
+    width: 100%;
+    height: max-content;
+
+    background-color: rgb(80, 120, 250);
+    background-image: url(../assets/index/Maestro_on_Stage.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+header, footer {
+    border: 2px solid coral;
+    background-color: coral;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 5px #0ff;
+}
+
+#main-title {
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: -3px;
+}
+
+.intro {
+    font-size: 1.5em;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+section img {
+   width: 25vw;
+   height: 25vh;
+   display: block;
+   margin: 0 auto;
+}
+
+.container img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  float: left;
+}
+
+a[target] {
+    color: yellow;
+    background-color: yellow;
+}
+
+a[href] {
+    color:darkmagenta;
+}
+
+a:hover {
+    color: red;
+}
+
+.container ul {
+  list-style-type: none;
+  clear: left;
+  padding: 0;
+
+}
+
+
+.container ul li {
+  width: 150px;
+  padding: 5px;
+  background-color: cornsilk;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0px 25px;
+}
+
