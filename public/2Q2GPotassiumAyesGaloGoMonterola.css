@@ -1,0 +1,82 @@
+body {
+    background-image: url("../assets/firstgraded/wallpaper.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+header {
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header .heading {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: white;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+
+.TextBox {
+    width: 100%;
+    padding: 4px;
+    border: 4px solid #260901;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #00000086;
+}
+
+.Box {
+    float: right;
+    width: 100%;
+    border: 4px solid #260901;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #00000086;
+    align-content: center;
+}
+
+a:hover, a:visited, a {
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    font-family: "Pixelify Sans";
+    border: 4px solid;
+    border-color: #260901;
+    color: white;
+}
+
+
+
+
+/* There should be a clear cohesive style on the page and the website in general.
+Through the use of CSS, the structure of the HTML page should be clearly defined on the webpage. 
+There would be a clear header with icon, heading and navigation. 
+The content and footer should also be clearly differentiated when CSS is applied.
+Format the text or image links on its initial state and visited state and also for hover state.
+Apply CSS float on the image and its paragraph. 
+You can also use display: flex or flex box to format your page if you are familiar with this property.
+A background color or image should be applied.  
+The background should not interfere with the content of the webpage.
+There should be an internal CSS and a shared stylesheet in the form of an External CSS (saved in one of the group Github repository) */
